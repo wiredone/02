@@ -80,8 +80,8 @@ end
 def volume_of_a_sphere(radius)
   
  my_volume = 4 * (((radius**3) * Math::PI) /3)
- puts my_volume.class
- return my_volume
+ puts my_volume.round(1)
+ return my_volume.round(1)
 
 end
 
